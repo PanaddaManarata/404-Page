@@ -1,45 +1,50 @@
-*{margin: 0 auto; 
-    box-sizing: border-box; 
-    
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+
 
 }
-body{background-image: url(../img/yoal-desurmont-523820-unsplash.jpg)}
 
-#container{
-   max-width: 960px; 
-    text-align: center; 
-    overflow: hidden; 
-    
-   
-    
-    
+body {
+    background-image: url(../img/yoal-desurmont-523820-unsplash.jpg)
 }
-#error{margin-top: 20%; 
+
+#container {
+    max-width: 960px;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+#error {
+    margin-top: 20%;
     margin-bottom: 40px;
-color: white;}
-
-#Code{
-    font-size:250px; 
- 
+    color: white;
+    font-family: 'Lora', serif;
 }
 
-#explain{font-size: 45px; }
-.button{
+#Code {
+    font-size: 230px;
 
-    padding: 25px 50px; 
-    background-color: transparent; 
-    cursor: pointer; 
-    border: 5px white solid;
-    color: white; 
-    font-size: 45px; 
-    
-    
+}
+
+#explain {
+    font-size: 30px;
+}
+
+.button {
+
+    padding: 25px 50px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 4px white solid;
+    color: white;
+    font-size: 30px;
+
 }
 
 
-.button:hover{
-    text-decoration: underline; 
-    
+.button:hover {
+    text-decoration: underline;
+
 }
-
-
