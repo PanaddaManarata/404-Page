@@ -1,0 +1,45 @@
+*{margin: 0 auto; 
+    box-sizing: border-box; 
+    
+
+}
+body{background-image: url(../img/yoal-desurmont-523820-unsplash.jpg)}
+
+#container{
+   max-width: 960px; 
+    text-align: center; 
+    overflow: hidden; 
+    
+   
+    
+    
+}
+#error{margin-top: 20%; 
+    margin-bottom: 40px;
+color: white;}
+
+#Code{
+    font-size:250px; 
+ 
+}
+
+#explain{font-size: 45px; }
+.button{
+
+    padding: 25px 50px; 
+    background-color: transparent; 
+    cursor: pointer; 
+    border: 5px white solid;
+    color: white; 
+    font-size: 45px; 
+    
+    
+}
+
+
+.button:hover{
+    text-decoration: underline; 
+    
+}
+
+
