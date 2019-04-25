@@ -25,6 +25,7 @@ body {
 
 #Code {
     font-size: 230px;
+    
 
 }
 
@@ -40,11 +41,21 @@ body {
     border: 4px white solid;
     color: white;
     font-size: 30px;
+    
 
 }
 
 
-.button:hover {
-    text-decoration: underline;
-
+.button:hover{
+animation: movebutton 2s ease-in; 
 }
+
+
+@keyframes movebutton{
+    0%{}
+    100%{color:#082708; background: white; }
+    
+    
+    
+}
+
